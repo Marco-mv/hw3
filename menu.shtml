@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Dawg Pizza</title>
+
+		<!-- hot link to Bootstrap stylesheet -->
+	    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+	    <!-- our own stylesheet for overrides -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+
+	<body>
+
+		<div class="container">
+				<!--#include virtual="inc/header.html" -->
+			<div id="photo-menu">
+				<img src="img/pizza-order.jpg" class="img-responsive" alt="responsive image of pizza ordered">
+			</div>
+
+
+			<div class="menu">
+				<h2>PIZZAS</h2>
+				<p>All our pizzas are made with hand-thrown thin crust, baked in real wood ovens. Choose from one of these sizes:</p>
+				<ul>
+					<li>Small (12")</li>
+					<li>Medium (14")</li>
+					<li>Large (17")</li>
+				</ul>
+				<p class="special">All pizzas can be customized--add a few ingredients, or take a few off--for an extra $2.</p>
+
+				<div class="row">
+					
+					<div class="col-md-6 meat">
+						<h3>MEAT PIES</h3>
+					</div>
+						
+					<div class="col-md-6 veg">
+						<h3>VEGETARIAN PIES</h3>
+					</div>	
+							
+						<dl>
+							<div class="template-pizza">
+								<dt class="name"></dt>
+								<dd><span class="description"></span>. $<span class="price small"></span>/$<span class="price medium"></span>/$<span class="price large"></span><dd>		
+							</div>
+						</dl>	
+
+				</div>	
+					
+
+				<h2>DRINKS</h2>
+					<div class="drinks"></div>
+					<ul class="drink-list">
+						<div class="template-drinks">
+							<li><span class="name"></span> ($<span class="price"></span>)</li>
+						</div>
+					</ul>
+						
+
+
+				<h2>DESSERTS</h2>
+					<div class="desserts"></div>
+					<ul class="dessert-list">
+						<div class="template-desserts">
+							<li><span class="name"></span> ($<span class="price"></span>)</li>
+						</div>	
+					</ul>
+			</div>
+		<!--#include virtual="inc/footer.html" -->
+		</div>
+		<!-- hot links to Bootstrap JavaScript and jQuery (allows your page to render while the browser downloads and parses the JavaScript) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+		
+		<script src="http://www.dawgpizza.com/orders/menu.js"></script>
+		<script src="js/code.js"></script>
+	</body>
+</html>

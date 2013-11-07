@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Dawg Pizza</title>
+
+		<!-- hot link to Bootstrap stylesheet -->
+	    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+
+	    <!-- our own stylesheet for overrides -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+
+	<body>
+		<div class="container">
+				<!--#include virtual="inc/header.html" -->
+			<div class="photo-home">
+				<img src="img/pizza1.jpg" class="img-responsive" alt="responsive image of pizza">
+			</div>
+
+			<!-- column layout -->
+			<div class="row"> 
+				<div class="col-md-6">
+					<div class="info">
+						<h3>When are we open?</h3>
+						<p>Open Monday-Saturday 10am to 11.00pm</p>
+
+						<h3>Where are we located?</h3>
+						<p> Our Address: <a href="http://goo.gl/maps/Kj1mU">4306 University Way NE, Seattle, WA 98105</a></p>
+
+						<h3>How can you contact us?</h3>
+						<p>Our Phone Number: 206-555-1212</p>
+						<p>Send us an email at <a href="dawpizaaseattle@gmail.com">dawpizaaseattle@gmail.com</a></p>
+						<p>...and don't forget to follow us on Twitter <a href="@DawgPizzaSea"> @DawgPizzaSea</a></p>
+					</div>		
+				</div>
+
+				<div class="col-md-6">
+					<div class="video">
+						<iframe width="420" height="315" src="//www.youtube.com/embed/HWL__9yDu8I" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div> <!--end row -->
+			<!--#include virtual="inc/footer.html" -->	
+		</div>
+
+		<!-- hot links to Bootstrap JavaScript and jQuery (allows your page to render while the browser downloads and parses the JavaScript) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	</body>
+</html>
